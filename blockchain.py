@@ -19,3 +19,6 @@ class Blockchain:
         }
         self.chain.append(block) # นำไปต่อกับ block เดิมที่สร้างก่อนหน้า
         return block
+
+    def get_previous_block(self):
+        return self.chain[-1]
