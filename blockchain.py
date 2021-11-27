@@ -57,3 +57,11 @@ class Blockchain:
             previous_block = block
             block_index += 1
         return True
+
+# Mining Blockchain
+
+#Create a Web App
+app = Flask(__name__)
+
+#Create Blockchain
+blockchain = Blockchain()
